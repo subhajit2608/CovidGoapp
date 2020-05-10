@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PredictionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="370dp"
+            android:layout_height="185dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/closecontact"
+            android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="400dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/enter_your_name"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/widget_edittext_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="400dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/enter_your_age"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textColorHint="@android:color/widget_edittext_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/nationality"
+            android:layout_width="400dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="8dp"
+            android:hint="NATIONALITY"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textColorHint="@android:color/widget_edittext_dark"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="400dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="8dp"
+            android:hint="FROM WHICH STATE DO YOU BELONG?"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textColorHint="@android:color/widget_edittext_dark"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+        android:id="@+id/leave"
+        android:layout_width="400dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="12dp"
+        android:hint="@string/how_many_times_did_you_leave_your_house_in_recent_few_days"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textColorHint="@android:color/widget_edittext_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/visited"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+
+        android:layout_marginTop="16dp"
+        android:hint="@string/enter_the_name_of_the_place"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textColorHint="@android:color/widget_edittext_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:layout_marginBottom="5dp"/>
+
+
+        <EditText
+            android:id="@+id/disease"
+            android:layout_width="400dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/are_you_suffering_from_any_other_disease"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textColorHint="@android:color/widget_edittext_dark"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            android:layout_marginBottom="20dp"/>
+
+
+        <Button
+            android:id="@+id/proceed"
+            android:layout_width="400dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="44dp"
+            android:text="PROCEED"
+            android:textColor="@android:color/primary_text_light"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="24sp"
+            android:onClick="showPredict"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </LinearLayout>
+</ScrollView>

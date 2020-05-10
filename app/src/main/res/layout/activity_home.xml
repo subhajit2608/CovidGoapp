@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="345dp"
+            android:layout_height="283dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/prediction" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="predictChance"
+            android:text="@string/predict_the_chance_of_you_being_affected"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            android:layout_marginBottom="25dp"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:srcCompat="@drawable/symptoms"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="408dp"
+            android:layout_height="wrap_content"
+            android:onClick="symptomsCov"
+            android:text="@string/know_symptoms_of_covid19"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.342"
+            android:layout_marginBottom="25dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:srcCompat="@drawable/hlthcare"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:onClick="getContacts"
+            android:text="@string/contact_details_of_health_expert"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.342" />
+
+
+    </LinearLayout>
+
+</ScrollView>

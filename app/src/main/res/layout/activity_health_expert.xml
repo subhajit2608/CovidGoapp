@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthExpertActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/for_telephonic_guidance"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryDark"/>
+
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_tushar_shah"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/phn1"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:text="9321469911"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_m_bhatt"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn2"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9320407074"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_d_doshi"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn3"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9820237951"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_d_rathod"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn4"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="8879148679"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_r_gwaliani"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn5"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="8779835257"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_d_kansara"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn6"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="8369846412"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_g_kamath"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn7"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9136575405"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_s_manglik"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn8"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9820222384"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_j_jain"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn9"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="7021092685"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_a_thakkar"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn10"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9321470745"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_l_bhagat"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn11"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9820732570"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_n_shah"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn12"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9821140656"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_s_phanse"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn13"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="8779328220"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_j_shah"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn14"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9869031354"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_n_zaveri"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn15"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9321489748"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_s_ansari"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn16"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="7045720278"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_l_kedia"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn17"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9321470560"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_b_shukla"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn18"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9321489060"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_s_halwai"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn19"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9867379346"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_m_kotian"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn20"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="8928650290"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_n_kumar"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn21"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="8104605550"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_p_bhargav"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn22"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text=" 9833887603"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_r_chauhan"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn23"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text=" 9892135010"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_b_kharat"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn24"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9969471815"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_s_dhulekar"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn25"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text=" 9892139027"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_s_pandit"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn26"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text=" 9422473277"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_m_sharma"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn27"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9999672238"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dr_k_roy"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/phn28"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="9999672239"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/expert28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALL NOW"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                android:textColor="@android:color/white"/>
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
